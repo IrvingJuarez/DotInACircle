@@ -20,26 +20,26 @@ const InputField = () => (
             <div className="inputField-container_center-field">
                 <h2>Center:</h2>
 
-                <div>
+                <div className="coordinate-input">
                     <label htmlFor="center-x">X:</label>
-                    <input type="number" id="center-x" />
+                    <input type="number" id="center-x" value="0" />
                 </div>
 
-                <div>
+                <div className="coordinate-input">
                     <label htmlFor="center-y">Y:</label>
-                    <input type="number" id="center-y" />
+                    <input type="number" id="center-y" value="0" />
                 </div>
             </div>
 
             <div className="inputField-container_point-field">
                 <h2>Point:</h2>
 
-                <div>
+                <div className="coordinate-input">
                     <label htmlFor="point-x">X:</label>
                     <input type="number" id="point-x" />
                 </div>
 
-                <div>
+                <div className="coordinate-input">
                     <label htmlFor="point-y">Y:</label>
                     <input type="number" id="point-y" />
                 </div>

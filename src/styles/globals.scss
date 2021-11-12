@@ -28,6 +28,16 @@ main{
 
 // Mixins
 @mixin input-field_title{
+    width: 60px;
     font-size: 1.7rem;
     font-weight: 100;
+}
+
+@mixin button{
+    padding: 3px 10px;
+    background-color: $contrast-color;
+    border-radius: 5px;
+    border: none;
+    color: $primary-color;
+    font-weight: 600;
 }
