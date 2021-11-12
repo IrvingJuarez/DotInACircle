@@ -22,12 +22,12 @@ const InputField = () => (
 
                 <div className="coordinate-input">
                     <label htmlFor="center-x">X:</label>
-                    <input type="number" id="center-x" value="0" />
+                    <input type="number" id="center-x" defaultValue="0" />
                 </div>
 
                 <div className="coordinate-input">
                     <label htmlFor="center-y">Y:</label>
-                    <input type="number" id="center-y" value="0" />
+                    <input type="number" id="center-y" defaultValue="0" />
                 </div>
             </div>
 
