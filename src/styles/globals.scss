@@ -1,3 +1,14 @@
-body{
-    background-color: black;
+$primary-color: #FDFDFD;
+$primary-clear-color: #898C98;
+$secondary-color: #131C21;
+$secondary-clear-color: #20313A;
+$contrast-color: #0579D1;
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
 }
