@@ -25,3 +25,9 @@ main{
     width: 100%;
     height: calc(100vh - 40px);
 }
+
+// Mixins
+@mixin input-field_title{
+    font-size: 1.7rem;
+    font-weight: 100;
+}

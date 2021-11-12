@@ -1,5 +1,8 @@
 import React from 'react';
 
+// styles
+import "../styles/InputField.scss";
+
 const InputField = () => (
     <React.Fragment>
         <article className="inputField-container">

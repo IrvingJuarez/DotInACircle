@@ -1,0 +1,31 @@
+@import "./globals.scss";
+
+.inputField-container{
+    display: flex;
+    flex-direction: column;
+    height: 30%;
+
+    & > div{
+        width: 100%;
+        height: 25%;
+        display: flex;
+        align-items: center;
+
+        h2{
+            @include input-field_title;
+        }
+    }
+
+    input{
+        width: 45px;
+        height: 25px;
+    }
+
+    &_header{
+        justify-content: space-between;
+
+        label{
+            @include input-field_title;
+        }
+    }
+}
