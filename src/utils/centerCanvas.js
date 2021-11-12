@@ -36,8 +36,14 @@ const centerCanvas = () => {
     setArray()
     getContext()
     sizeCanvas()
-    
-    console.log(canvases)
+
+    let canvasWidth = canvases[0].element.width / 2;
+    let canvasHeight = canvases[0].element.height / 2;
+
+    canvases.forEach(canvas => {
+        canvas.context.translate(canvasWidth, canvasHeight)
+        canvas.context.fillRect(0,0,20,20)
+    })
 }
 
 export default centerCanvas;
