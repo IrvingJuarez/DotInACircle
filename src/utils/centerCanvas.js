@@ -42,8 +42,8 @@ const centerCanvas = () => {
 
     canvases.forEach(canvas => {
         canvas.context.translate(canvasWidth, canvasHeight)
-        canvas.context.fillRect(0,0,20,20)
     })
 }
 
 export default centerCanvas;
+export { canvases }

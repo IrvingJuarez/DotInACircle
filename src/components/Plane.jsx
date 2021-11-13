@@ -5,6 +5,7 @@ import "../styles/Plane.scss";
 
 // utils
 import centerCanvas from '../utils/centerCanvas';
+import drawGrid from '../utils/drawGrid';
 
 class Plane extends React.Component{
     constructor(props){
@@ -13,6 +14,7 @@ class Plane extends React.Component{
 
     componentDidMount(){
         centerCanvas();
+        drawGrid()
     }
 
     render(){
